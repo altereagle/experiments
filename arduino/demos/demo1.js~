@@ -13,13 +13,13 @@ function runWhenReady(){
   function alternate0(){
     output.LED[0].off();
     output.LED[1].on();
-    board.wait(1500,alternate1)    
+    board.wait(3000,alternate1)    
   }
 // This is the second funciton to also create a cool effect working with alternate 0
   function alternate1(){
     output.LED[0].on();
     output.LED[1].off();
-    board.wait(1500,alternate0)
+    board.wait(3000,alternate0)
   }
 }
 
