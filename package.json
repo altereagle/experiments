@@ -1,0 +1,25 @@
+{
+  "name": "experiments",
+  "version": "0.0.0",
+  "description": "Ardunio with JavaScript",
+  "main": "demo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node arduino/demo1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altereagle/experiments.git"
+  },
+  "dependencies": {
+    "connect": "*",
+    "johnny-five": "*"
+  },
+  "keywords": [
+    "Ardunio",
+    "JavaScript",
+    "Johnny-Five"
+  ],
+  "author": "Kendell Joseph, Zachary Routh",
+  "license": "BSD"
+}
