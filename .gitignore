@@ -1,4 +1,5 @@
 # Custom
+*.js~
 .DS_Store
 .c9revisions/
 server.log
