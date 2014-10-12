@@ -12,8 +12,10 @@
     "url": "https://github.com/altereagle/experiments.git"
   },
   "dependencies": {
+    "coffee-script": "^1.8.0",
     "connect": "*",
-    "johnny-five": "*"
+    "johnny-five": "*",
+    "pi-gpio": "0.0.6"
   },
   "keywords": [
     "Ardunio",
